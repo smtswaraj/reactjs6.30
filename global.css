@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#nav{ 
+    height: 72px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+#nav>article{
+    height: 72px;
+    width: 100%;
+    display: flex;
+}
+#nav>article>.Logo{
+    height: 72px;
+    width: 50%;
+    display: flex; 
+    align-items: center;
+}
+#nav>article>.Logo>svg{
+    fill: white;
+    height: 57%;
+    width: 49%;
+}
+#nav>article>.Menu{
+    height: 72px;
+    width: 50%;
+    display: flex;
+}
+#nav>article>.Menu>ul{
+    display: flex;
+    align-items: center;
+    height: 72px;
+    width: 100%;
+    list-style-type: none;
+    justify-content: space-evenly;
+    
+}
+
+#nav>article>.Menu>ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}

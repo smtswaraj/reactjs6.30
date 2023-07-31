@@ -1,0 +1,22 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} */
+.header{
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+}
+.box{
+    text-align: center;
+    color: rgb(180, 3, 250);
+    /* text-decoration: underline; */
+    justify-content: center;
+    border: 2px solid ;
+    border: 5px dotted;
+    border-radius: 20px;
+    font-family: cursive;
+    width: 50%;
+    margin: auto;
+}
